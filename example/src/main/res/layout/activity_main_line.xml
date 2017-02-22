@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:padding="16dp">
+
+    <com.cuieney.progress.library.RainbowProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:progress_max="100"
+        app:progress_start_color="#fff000"
+        app:progress_end_color="#00fff0"
+        app:progress_type="line"
+        app:progress_height="10dp"
+        app:progress_current="0"
+        />
+
+    <com.cuieney.progress.library.RainbowProgressBar
+        android:id="@+id/progress1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:progress_max="100"
+        app:progress_start_color="#00ff00"
+        app:progress_end_color="#0000ff"
+        app:progress_type="line"
+        app:progress_height="10dp"
+        app:progress_current="20"
+        />
+
+    <com.cuieney.progress.library.RainbowProgressBar
+        android:id="@+id/progress2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:progress_max="100"
+        app:progress_start_color="#0000ff"
+        app:progress_end_color="#00ff00"
+        app:progress_type="line"
+        app:progress_height="10dp"
+        app:progress_current="30"
+        />
+
+    <com.cuieney.progress.library.RainbowProgressBar
+        android:id="@+id/progress3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:progress_max="100"
+        app:progress_start_color="#00ff00"
+        app:progress_end_color="#0000ff"
+        app:progress_type="line"
+        app:progress_height="10dp"
+        app:progress_current="40"
+        />
+
+    <com.cuieney.progress.library.RainbowProgressBar
+        android:id="@+id/progress4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:progress_max="100"
+        app:progress_start_color="#0000ff"
+        app:progress_end_color="#ff0000"
+        app:progress_type="line"
+        app:progress_height="10dp"
+        app:progress_current="50"
+        />
+
+    <com.cuieney.progress.library.RainbowProgressBar
+        android:id="@+id/progress5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:progress_max="100"
+        app:progress_start_color="#00ffff"
+        app:progress_end_color="#ff0000"
+        app:progress_type="line"
+        app:progress_height="10dp"
+        app:progress_current="60"
+        />
+
+    <com.cuieney.progress.library.RainbowProgressBar
+        android:id="@+id/progress6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:progress_max="100"
+        app:progress_start_color="#ff00ff"
+        app:progress_end_color="#ffff00"
+        app:progress_type="line"
+        app:progress_height="10dp"
+        app:progress_current="70"
+        />
+
+    <com.cuieney.progress.library.RainbowProgressBar
+        android:id="@+id/progress7"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:progress_max="100"
+        app:progress_start_color="#ff00ff"
+        app:progress_end_color="#ffffff"
+        app:progress_type="line"
+        app:progress_height="10dp"
+        app:progress_current="80"
+        />
+
+</LinearLayout>
