@@ -65,17 +65,6 @@ public class RainbowProgressBar extends View {
 
     public RainbowProgressBar(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        final TypedArray attributes = context.getTheme().obtainStyledAttributes(attrs, R.styleable.RainbowProgressBar,
-                defStyleAttr, 0);
-        max = attributes.getInteger(R.styleable.RainbowProgressBar_progress_max,100);
-        progress = attributes.getInteger(R.styleable.RainbowProgressBar_progress_current,0);
-        startColor = attributes.getColor(R.styleable.RainbowProgressBar_progress_start_color,startColor);
-        endColor = attributes.getColor(R.styleable.RainbowProgressBar_progress_end_color,endColor);
-        radius = attributes.getInt(R.styleable.RainbowProgressBar_progress_radius,dp2px(35));
-        progressHeight = attributes.getInteger(R.styleable.RainbowProgressBar_progress_height,dp2px(10));
-        unreachedColor = attributes.getColor(R.styleable.RainbowProgressBar_progress_unreached_color,unreachedColor);
-        type = attributes.getInteger(R.styleable.RainbowProgressBar_progress_type,1);
-        attributes.recycle();
         init();
     }
 

@@ -9,59 +9,66 @@
     android:padding="16dp"
     android:gravity="center">
 
+
+
+    <com.cuieney.progress.library.RainbowProgressBar
+        android:id="@+id/rainbow_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
     <com.cuieney.progress.library.RainbowProgressBar
         android:id="@+id/progress4"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
         app:progress_max="100"
         app:progress_start_color="#ff0000"
         app:progress_end_color="#00ff00"
         app:progress_type="circle"
-        app:progress_height="7dp"
+        app:progress_height="4dp"
         app:progress_current="30"
-        app:progress_radius="25dp"
+        app:progress_radius="24dp"
         />
 
     <com.cuieney.progress.library.RainbowProgressBar
         android:id="@+id/progress1"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:layout_marginTop="15dp"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="14dp"
         app:progress_max="100"
         app:progress_start_color="#00ff00"
         app:progress_end_color="#0000ff"
         app:progress_type="circle"
-        app:progress_height="7dp"
+        app:progress_height="4dp"
         app:progress_current="50"
-        app:progress_radius="35dp"
+        app:progress_radius="34dp"
         />
 
     <com.cuieney.progress.library.RainbowProgressBar
         android:id="@+id/progress2"
-        android:layout_width="105dp"
-        android:layout_height="105dp"
-        android:layout_marginTop="15dp"
+        android:layout_width="104dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="14dp"
         app:progress_max="100"
         app:progress_start_color="#ff00ff"
         app:progress_end_color="#ffffff"
         app:progress_type="circle"
-        app:progress_height="7dp"
+        app:progress_height="4dp"
         app:progress_current="70"
-        app:progress_radius="45dp"
+        app:progress_radius="44dp"
         />
 
     <com.cuieney.progress.library.RainbowProgressBar
         android:id="@+id/progress"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
-        android:layout_marginTop="15dp"
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="14dp"
         app:progress_max="100"
         app:progress_start_color="#ff00ff"
         app:progress_end_color="#ffff00"
         app:progress_type="circle"
-        app:progress_height="7dp"
+        app:progress_height="4dp"
         app:progress_current="70"
-        app:progress_radius="55dp"
+        app:progress_radius="54dp"
         />
 
 </LinearLayout>
