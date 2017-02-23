@@ -54,22 +54,6 @@ I made some predesign style. You can use color via style property.
 In the above picture, they look so great,
 you just needed set startColor and endColor attributes，can achieve the effect
 
-```
-  <com.example.library.BarChartView
-            android:id="@+id/chart"
-            android:layout_marginTop="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:axisColor="@color/colorPrimary"
-            app:hideGirdLine="false"
-            app:barColor="@color/colorPrimary"
-            app:max="300"
-            app:type="line"
-            app:radius="15"
-            app:yAxisTxtColor="@color/colorAccent" />
-
-```
-
 
 #### Attributes
 
@@ -104,5 +88,5 @@ for example(line progress bar), the default style:
 ```
 
 ### About me:
-
-stay hungry stay foolish,good good study day day up
+a intersting man,
+stay hungry stay foolish,good good study day day up hhh
