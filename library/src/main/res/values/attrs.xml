@@ -13,6 +13,7 @@
         <attr name="progress_type" format="enum">
             <enum name="circle" value="0"/>
             <enum name="line" value="1"/>
+            <enum name="rainbow" value="2"/>
         </attr>
     </declare-styleable>
 </resources>

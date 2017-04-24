@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_marginTop="20dp"
-    android:padding="16dp">
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!--<com.cuieney.progress.library.Vsco-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="7dp" />-->
 
     <com.cuieney.progress.library.RainbowProgressBar
         android:id="@+id/progress"
@@ -16,7 +25,7 @@
         app:progress_start_color="#fff000"
         app:progress_end_color="#00fff0"
         app:progress_type="line"
-        app:progress_height="5dp"
+        app:progress_height="80dp"
         app:progress_current="0"
         />
 
@@ -107,4 +116,5 @@
         app:progress_current="80"
         />
 
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>
