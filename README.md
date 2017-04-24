@@ -9,10 +9,18 @@ And also you can contribute more style, or new idea to me.
 
 ***
 ## Demo
-![rainbow icon](https://github.com/Cuieney/RainbowProgressBar/blob/master/app/progress.gif)
+![rainbow icon](https://github.com/Cuieney/RainbowProgressBar/blob/master/app/rainbow.gif)
+
+
 
 [Download Demo](https://github.com/Cuieney/RainbowProgressBar/blob/master/app/example-debug.apk "a Safari extension")
 ***
+## version
+v1.0.1
+Add a new style 
+
+v1.0.0
+The basic function
 
 ## Usage
 ***
@@ -47,6 +55,8 @@ Copy this code to your layout
 ```
 
 I made some predesign style. You can use color via style property.
+
+
 
 ![rainbow icon](https://github.com/Cuieney/RainbowProgressBar/blob/master/app/line.png)
 ![rainbow icon](https://github.com/Cuieney/RainbowProgressBar/blob/master/app/circle.png)
