@@ -24,14 +24,14 @@ The basic function
 
 ## Usage
 ***
-###Gradle
+### Gradle
 
 ```
 compile 'com.cuieney.library:library:1.0.0'
 
 ```
 
-###Maven
+### Maven
 
 ```
 <dependency>
